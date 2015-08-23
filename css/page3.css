@@ -1,0 +1,45 @@
+#page3,#page5{
+	background:url(../img/乐予H5-031.png);
+	
+}
+/*#pic3_2{
+	z-index: 1;
+}*/
+#pic3_1,#pic3_2{
+	opacity: 1;
+}
+#page3 >img{
+	opacity: 1;	
+}
+#page3>p{
+	position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 200px;
+  z-index: 10;
+  text-align: center;
+}
+#page3 p:nth-of-type(1){
+	margin: 23% auto;
+	font-weight: bolder;
+	font-size: 37px;
+
+}
+#page3 p:nth-of-type(2){
+	  margin: 72% auto;
+
+  font-size: 13px;
+
+}
+#page3 p:nth-of-type(3){
+	margin: 104% auto;
+
+  font-size: 13px;
+}
+#page3 p:nth-of-type(4){
+	margin: 136% auto;
+
+  font-size: 13px;
+}
