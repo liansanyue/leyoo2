@@ -1,70 +1,83 @@
 #page4{
 	background:url(../img/乐予H5-04.png);
-	/*background-color: #000;*/
+	 background-size:100% 100%;
 	z-index: 0;
 }
 #page4>div{
 
-color: #8f8f8f;
-z-index: 100;
-font-size: 14px;
-/*font-weight: bold;*/
-position: absolute;
+  color: #8f8f8f;
+  z-index: 100;
+  font-size: 15px;
+  position: absolute;
   left: 0;
   top: 0;
   right: 0;
   bottom: 0;
-  width: 257px;
-  line-height:20px;
-  
-
-/* height: 100px; */
-   /*border-bottom: 1px #e03828 dashed;*/
+  width: 300px;
+  line-height: 19px;
+  margin: auto auto;
+  opacity: 0;
 }
-#page4 div>hr{
+#page4 hr{
 	height:1px;border:none;border-top:1px dashed #e03828;
-	width: 400px;
+	width: 100%;
+	margin: 15px 0;
+	padding: 0px 100%;
+  opacity: 0;
+
 }
 #page4 >img{
-opacity: 1;
+opacity: 0;
 z-index: -1;
+ height: 100%;
+    width: 100%;
 }
 #page4 div>h4{
   background-color: #e03828;
   padding: 2px 5px;
   margin-bottom: 7px;
   color: #fff;
-  width: 65px;
+  width: 70px;
   text-align: center;
   border-radius: 12px;
 }
 #page4 span{
 	color: #e03828;
-	/*font-weight: bold;*/
 }
+
 #page4 div:nth-of-type(even)>h4{
-margin-left: 180px;
+margin-left: 66%;
 }
 #page4 div:nth-of-type(odd)>hr{
-margin-left: -142px;
+margin-left: -66%;
 }
 #page4 div:nth-of-type(1){
- margin: 12% 36%;
+top:10%;
+left:40%;
 text-align: left;
 }
+
 #page4 div:nth-of-type(2){
-margin: 42% -1%;
+  top: 27%;
+  left: -61%;
 text-align: right;
 }
 #page4 div:nth-of-type(3){
-margin: 70% 36%;
+top:44%;
+left:40%;
 text-align: left;
+
 }
 #page4 div:nth-of-type(4){
-margin: 98% -1%;
+top: 61%;
+  left: -61%;
 text-align: right;
+
+
 }
 #page4 div:nth-of-type(5){
-margin: 127% 36%;
+top:78%;
+left:40%;
 text-align: left;
+
 }

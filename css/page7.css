@@ -1,4 +1,102 @@
 #page7{
-	background:url(../img/乐予H5-07.png);
-	
+	background-color: #fdf6ed;
+	 color:red;
+}
+.slideup{
+	opacity: 1;
+	-webkit-transform: translateY(100%);
+    animation: silseup 1s ease-in 0s;
+      animation-iteration-count:1;
+     -webkit-animation-fill-mode: forwards;  
+	}
+@-webkit-keyframes silseup{
+	0%{
+  -webkit-transform: translateY(100%);
+  }
+  100%{
+  -webkit-transform: translateY(0);
+  }
+}
+@-webkit-keyframes silseup2{
+	0%{
+  -webkit-transform: translateY(1000px);
+  }
+   100%{
+  -webkit-transform: translateY(0);
+  }
+}
+.page7p{
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 194px;
+  z-index: 100;
+  text-align: left;
+  opacity: 1;
+  font-size: 18px;
+  line-height: 24px;
+  margin: auto auto;
+  -webkit-transform: translateY(1000px);
+  animation: silseup2 1s ease-in 0s;
+  animation-iteration-count: 1;
+  -webkit-animation-fill-mode: forwards; 
+
+}
+#page7 p:nth-of-type(1){
+  text-align: left;
+  top: 50%;
+}
+#page7 p:nth-of-type(2){
+  text-align: right;
+  top: 58%;
+  padding-right: 47px;
+
+}
+.moveeye1{
+	  width: 5%;
+  height: 3%;
+ top: 27%;
+  left: 49%;
+  opacity:0;
+  animation: moveeye 0.8s ease-in 0.8s;
+  animation-iteration-count: infinite;
+  animation-direction:alternate;
+
+}
+.moveeye2{
+	  width: 5%;
+      height: 3%;
+      opacity:0;
+
+    top: 27%;
+  left: 57%;
+ animation: moveeye2 0.8s ease-in 0.8s;
+  animation-iteration-count: infinite; 
+animation-direction:alternate;
+ 
+
+}
+@-webkit-keyframes moveeye{
+	0%{
+		opacity: 1;
+  
+  left: 49%;
+  }
+  100%{
+opacity: 1;
+  left: 50%;
+  }
+}
+@-webkit-keyframes moveeye2{
+  0%{
+    opacity: 1;
+  
+  left: 57%;
+  }
+  100%{
+ opacity: 1;
+  left: 58%;
+  }
 }

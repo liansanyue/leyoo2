@@ -1,15 +1,18 @@
 #page2{
 	background:url(../img/乐予H5-021.png);
-	 background-size:100% 100%;  
+	background-size:100% 100%; 
 }
-#pic2_2{
-	 animation: fade 1.5s ease .1s;
+.pic2_2{
+	 animation: fade 1s ease .1s;
      animation-iteration-count:1;
     -webkit-animation-fill-mode: forwards; 
     z-index: 0;
 }
-#page2 p:nth-of-type(1){
-  width: 250px;
+#page2 p{
+  opacity: 0;
+}
+.page2p_1{
+ width: 100%;
   height: 40px;
  /* text-indent: 75px;*/
   line-height: 30px;
@@ -18,34 +21,56 @@
   top: 0;
   right: 0;
   bottom: 0;
-  margin: 68% auto;
+  margin: auto auto;
   font-family: "幼圆";
-  font-size: 16px;
+  font-size: 18px;
   font-weight: bold;
-  letter-spacing: 4px;
+  letter-spacing:3px;
  /* padding-left: 17px;*/
  text-align: center;
+ opacity: 0;
+ animation: fade 1s ease 1.5s;
+     animation-iteration-count:1;
+     -webkit-animation-fill-mode: forwards;
 }
 .leyu_2{
-  font-size: 36px;
+  font-size: 60px;
 
 
 }
 .creator{
-font-size: 15px;
+     opacity: 0;
+     z-index: 0;
+      -webkit-transform: translateX(60px);
+	animation: creator 1s ease-in 2s;
+     animation-iteration-count:1;
+    -webkit-animation-fill-mode: forwards; 
+   
 }
-#page2 p:nth-of-type(2){
- width: 250px;
-  height: 40px;
-	font-size: 15px;
-	 position: absolute;
-	 font-weight: 550;
-	 line-height: 50px;
-  left: 0;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  letter-spacing: 2px;	
-  margin: 98% auto;
-  text-align: center;
+
+.page2p_2{
+ width:100%;
+ height: 40px;
+font-size: 18px;
+position: absolute;
+font-weight: 550;
+line-height: 50px;
+left: 0;
+top: 34%;
+right: 0;
+bottom: 0;
+letter-spacing: 2px;	
+margin: auto auto;
+text-align: center;
+}
+
+@-webkit-keyframes creator{
+  0% { -webkit-transform: translateX( 60px) scaleX(1.2); opacity: 0}
+   35% { -webkit-transform: translateX( 60px) scaleX(1.2); opacity: 0.15} 
+   65% { -webkit-transform: translateX(0px) scaleX(1.2); opacity: 0.65}    
+   67% { -webkit-transform: translateX(-20px) scaleX(0.8);opacity: 0.85}
+   81% { -webkit-transform: translateX(10px) scaleX(1.2);opacity: 1 }
+   100% { -webkit-transform: translateX(0px); opacity: 1}
+}
+   
 }
