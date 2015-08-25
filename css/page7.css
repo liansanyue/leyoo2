@@ -5,8 +5,8 @@
 .slideup{
 	opacity: 1;
 	-webkit-transform: translateY(100%);
-    animation: silseup 1s ease-in 0s;
-      animation-iteration-count:1;
+    -webkit-animation: silseup 1s ease-in 0s;
+      -webkit-animation-iteration-count:1;
      -webkit-animation-fill-mode: forwards;  
 	}
 @-webkit-keyframes silseup{
@@ -39,8 +39,8 @@
   line-height: 24px;
   margin: auto auto;
   -webkit-transform: translateY(1000px);
-  animation: silseup2 1s ease-in 0s;
-  animation-iteration-count: 1;
+  -webkit-animation: silseup2 1s ease-in 0s;
+  -webkit-animation-iteration-count: 1;
   -webkit-animation-fill-mode: forwards; 
 
 }
@@ -60,9 +60,9 @@
  top: 27%;
   left: 49%;
   opacity:0;
-  animation: moveeye 0.8s ease-in 0.8s;
-  animation-iteration-count: infinite;
-  animation-direction:alternate;
+  -webkit-animation: moveeye 0.8s ease-in 0.8s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-direction:alternate;
 
 }
 .moveeye2{
@@ -72,9 +72,9 @@
 
     top: 27%;
   left: 57%;
- animation: moveeye2 0.8s ease-in 0.8s;
-  animation-iteration-count: infinite; 
-animation-direction:alternate;
+ -webkit-animation: moveeye2 0.8s ease-in 0.8s;
+  -webkit-animation-iteration-count: infinite; 
+-webkit-animation-direction:alternate;
  
 
 }

@@ -8,8 +8,8 @@ background-color: #E84F34;
 
 #pic1_1{
 
-	 animation: fade 1s ease .1s;
-     animation-iteration-count:1;
+	-webkit-animation: fade 1s ease .1s;
+    -webkit-animation-iteration-count:1;
     -webkit-animation-fill-mode: forwards; 
     z-index: 0;
     height: 100%;
@@ -34,8 +34,8 @@ background-color: #E84F34;
   border-bottom: 2px #fff dashed;
   opacity: 0;
   font-weight: 600;
-  animation: fade 1s ease 1s;
-  animation-iteration-count: 1;
+ -webkit-animation: fade 1s ease 1s;
+ -webkit-animation-iteration-count: 1;
   -webkit-animation-fill-mode: forwards;
   /* border-style: dashed; */
   text-align: center;
@@ -57,8 +57,8 @@ background-color: #E84F34;
   font-size: 60px;
   text-align: center;
   font-weight: bolder;
-  animation: fade 1s ease 2s;
-  animation-iteration-count: 1;
+ -webkit-animation: fade 1s ease 2s;
+ -webkit-animation-iteration-count: 1;
   -webkit-animation-fill-mode: forwards;
   /* z-index: 1;*/
 }
@@ -66,26 +66,26 @@ background-color: #E84F34;
 #leyoo span:nth-of-type(1){
 	display: inline-block;
 	-webkit-transform: translateX(70px);
-		transform: translateX(70px);
+		-webkit-transform: translateX(70px);
 
- animation: moveleft 1s ease 3s;
-  animation-iteration-count: 1;
+-webkit-animation: moveleft 1s ease 3s;
+ -webkit-animation-iteration-count: 1;
   -webkit-animation-fill-mode: forwards;
 }
 #leyoo span:nth-of-type(3){
 	display: inline-block;
 	-webkit-transform: translateX(-70px);
-	transform: translateX(-70px);
+	-webkit-transform: translateX(-70px);
 		
-	 animation: moveright 1s ease-in 3s;
-  animation-iteration-count: 1;
+	-webkit-animation: moveright 1s ease-in 3s;
+ -webkit-animation-iteration-count: 1;
   -webkit-animation-fill-mode: forwards;
 }
 #leyoo span:nth-of-type(2){
   opacity: 0;
    letter-spacing: 6px;
-	animation: fade 1s ease-in 4s;
-  animation-iteration-count: 1;
+	-webkit-animation: fade 1s ease-in 4s;
+ -webkit-animation-iteration-count: 1;
   -webkit-animation-fill-mode: forwards;
 
 }
@@ -109,8 +109,8 @@ background-color: #E84F34;
   opacity: 0;
   font-weight: 600;
    -webkit-transform: translateX(-50px);
-  animation: slide 1s ease 5s;
-  animation-iteration-count: 1;
+ -webkit-animation: slide 1s ease 5s;
+ -webkit-animation-iteration-count: 1;
   -webkit-animation-fill-mode: forwards;*/
 
   width: 265px;
@@ -129,8 +129,8 @@ background-color: #E84F34;
   opacity: 0;
   font-weight: 600;
   -webkit-transform: translateX(-50px);
-  animation: slide 1s ease 5s;
-  animation-iteration-count: 1;
+ -webkit-animation: slide 1s ease 5s;
+ -webkit-animation-iteration-count: 1;
   -webkit-animation-fill-mode: forwards;
 
 }
@@ -138,8 +138,8 @@ background-color: #E84F34;
 {
 	 height: 100%;
     width: 100%;
-	 animation: fade 1s ease 5.5s;
-     animation-iteration-count:1;
+	-webkit-animation: fade 1s ease 5.5s;
+    -webkit-animation-iteration-count:1;
      -webkit-animation-fill-mode: forwards; 
     /* z-index: 1;*/
 }
@@ -147,10 +147,10 @@ background-color: #E84F34;
 {     
 	  height: 100%;
     width: 100%;
-	 animation: eyemove 1s ease 6.5s;
+	-webkit-animation: eyemove 1s ease 6.5s;
 	/* transform-origin:;*/
 	-webkit-transform: translateX(-2px)
-      animation-iteration-count:1;
+     -webkit-animation-iteration-count:1;
      -webkit-animation-fill-mode: forwards;  
 }
 @-webkit-keyframes fade{

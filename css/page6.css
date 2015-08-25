@@ -13,8 +13,8 @@
   left: 45%;
   width: 15%;
   height: 9%;
-  animation: rotate 1s ease 1.5s;
-  animation-iteration-count: 1;
+  -webkit-animation: rotate 1s ease 1.5s;
+  -webkit-animation-iteration-count: 1;
   -webkit-animation-fill-mode: forwards; 
   
 }
@@ -24,8 +24,8 @@
   left: 45%;
   width: 15%;
   height: 9%;
-  animation: rotate 1s ease 2.5s;
-  animation-iteration-count: 1;
+  -webkit-animation: rotate 1s ease 2.5s;
+  -webkit-animation-iteration-count: 1;
   -webkit-animation-fill-mode: forwards;
   
 }
@@ -35,8 +35,8 @@
   left: 45%;
   width: 15%;
   height: 9%;
-  animation: rotate 1s ease 3.5s;
-  animation-iteration-count: 1;
+  -webkit-animation: rotate 1s ease 3.5s;
+  -webkit-animation-iteration-count: 1;
   -webkit-animation-fill-mode: forwards;
  
   
@@ -47,8 +47,8 @@ opacity: 0;
   left: 45%;
   width: 15%;
   height: 9%;
-  animation: rotate 1s ease 4.5s;
-  animation-iteration-count: 1;
+  -webkit-animation: rotate 1s ease 4.5s;
+  -webkit-animation-iteration-count: 1;
   -webkit-animation-fill-mode: forwards;
   
 }
@@ -58,8 +58,8 @@ opacity: 0;
   left: 45%;
   width: 15%;
   height: 9%;
-  animation: rotate 1s ease 5.5s;
-  animation-iteration-count: 1;
+  -webkit-animation: rotate 1s ease 5.5s;
+  -webkit-animation-iteration-count: 1;
   -webkit-animation-fill-mode: forwards;
   
 }

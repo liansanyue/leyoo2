@@ -62,7 +62,7 @@ function page2css(){
 	var spannode=pnode[1].getElementsByTagName("span");
 	var time=3.3;
 	for(var i=0;i<spannode.length;i++){
-		spannode[i].setAttribute("style","opacity: 0;animation: fade 1s ease "+time+"s;animation-iteration-count:1;-webkit-animation-fill-mode: forwards;");
+		spannode[i].setAttribute("style","opacity: 0;-webkit-animation: fade 1s ease "+time+"s;-webkit-animation-iteration-count:1;-webkit-animation-fill-mode: forwards;");
 	     time+=0.8;
 	}
 }
@@ -73,11 +73,11 @@ function page3css(){
 	pnode[0].className = "slide";
 	imgnode[1].className = imgnode[1].className + " pic3_2";
 	for (var i = 2; i < imgnode.length; i++) {
-		imgnode[i].setAttribute("style", "	animation: fade 1s ease " + (i + 1) + "s;animation-iteration-count: 1;-webkit-animation-fill-mode: forwards;")
+		imgnode[i].setAttribute("style", "	-webkit-animation: fade 1s ease " + (i + 1) + "s;-webkit-animation-iteration-count: 1;-webkit-animation-fill-mode: forwards;")
 	}
 	var topdata = 46;
 	for (i = 1; i < pnode.length; i++) {
-		pnode[i].setAttribute("style", " top:" + topdata + "%; font-size: 15px;animation: fade 1s ease " + (i + 2) + "s;animation-iteration-count: 1;-webkit-animation-fill-mode: forwards;")
+		pnode[i].setAttribute("style", " top:" + topdata + "%; font-size: 15px;-webkit-animation: fade 1s ease " + (i + 2) + "s;-webkit-animation-iteration-count: 1;-webkit-animation-fill-mode: forwards;")
 		topdata += 20;
 	}
 }
@@ -98,14 +98,14 @@ function page4css(){
 			movex = 1000;
 			movefor = "moveleft";
 		}
-		page4img[j - 1].setAttribute("style", "opacity: 1;-webkit-transform: translateX(" + movex + "px);animation: " + movefor + " 1.5s ease " + time + "s;animation-iteration-count: 1;  -webkit-animation-fill-mode: forwards;");
-		page4div[j - 1].setAttribute("style", "opacity: 1;-webkit-transform: translateX(" + movex + "px);animation: " + movefor + " 1.5s ease " + time + "s;animation-iteration-count: 1;  -webkit-animation-fill-mode: forwards;");
+		page4img[j - 1].setAttribute("style", "opacity: 1;-webkit-transform: translateX(" + movex + "px);-webkit-animation: " + movefor + " 1.5s ease " + time + "s;-webkit-animation-iteration-count: 1;  -webkit-animation-fill-mode: forwards;");
+		page4div[j - 1].setAttribute("style", "opacity: 1;-webkit-transform: translateX(" + movex + "px);-webkit-animation: " + movefor + " 1.5s ease " + time + "s;-webkit-animation-iteration-count: 1;  -webkit-animation-fill-mode: forwards;");
 		if(j<=pagehr.length)
 		{pagehr[j-1].setAttribute("style","opacity:1");}
 		time += 0.5;
-		page4h3[j - 1].setAttribute("style", "opacity: 0; animation: fade 1s ease " + time + "s;animation-iteration-count: 1;-webkit-animation-fill-mode: forwards;");
+		page4h3[j - 1].setAttribute("style", "opacity: 0; -webkit-animation: fade 1s ease " + time + "s;-webkit-animation-iteration-count: 1;-webkit-animation-fill-mode: forwards;");
 		time += 0.5;
-		page4p[j - 1].setAttribute("style", "opacity: 0; animation: fade 1s ease " + time + "s;animation-iteration-count: 1;-webkit-animation-fill-mode: forwards;");
+		page4p[j - 1].setAttribute("style", "opacity: 0; -webkit-animation: fade 1s ease " + time + "s;-webkit-animation-iteration-count: 1;-webkit-animation-fill-mode: forwards;");
 		time += 0.5;
 }
 }
@@ -126,7 +126,7 @@ function page6css(){
 	imgnode[5].className="pics page_6_5";
 	var topdata=24;
 for(var i=0;i<pnode.length;i++){
-	pnode[i].setAttribute("style","top: "+topdata+"%;animation: fade 1s ease "+(i+2)+"s;animation-iteration-count: 1; -webkit-animation-fill-mode: forwards;");
+	pnode[i].setAttribute("style","top: "+topdata+"%;-webkit-animation: fade 1s ease "+(i+2)+"s;-webkit-animation-iteration-count: 1; -webkit-animation-fill-mode: forwards;");
    topdata+=16;
 
 }

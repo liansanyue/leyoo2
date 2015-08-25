@@ -29,14 +29,14 @@
 .slide{
   opacity: 1;
  -webkit-transform: translateX(-50px);
-  animation: slide 1s ease 0s;
-  animation-iteration-count: 1;
+  -webkit-animation: slide 1s ease 0s;
+  -webkit-animation-iteration-count: 1;
   -webkit-animation-fill-mode: forwards;
 }
 .pic3_2{
   width: 100%;
   height: 100%;
-	animation: fade 1.5s ease 1.5s;
-  animation-iteration-count: 1;
+	-webkit-animation: fade 1.5s ease 1.5s;
+  -webkit-animation-iteration-count: 1;
   -webkit-animation-fill-mode: forwards;
 }
